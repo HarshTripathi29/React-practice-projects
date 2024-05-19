@@ -1,0 +1,58 @@
+*{
+  background-color: rgb(22, 22, 22);
+  color: rgb(220, 220, 220);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  width : 65px;
+  height : 25px;
+  background-color: rgb(50, 50, 50);
+  border: none;
+  border-radius : 3px;
+  margin : 10px;
+  cursor: pointer;
+}
+
+.taskButton{
+  width : 75px;
+  height : 25px;
+  background-color: rgb(50, 50, 50);
+  border: none;
+  border-radius : 3px;
+  margin : 10px;
+  cursor: pointer;
+}
+
+.input{
+  height : 25px;
+  width : 250px;
+  border-radius : 5px;
+}
+
+.button:hover{
+  background-color: rgb(22, 22, 22);
+  font-weight: 600;
+}
+
+.taskButton:hover{
+  background-color: rgb(22, 22, 22);
+  font-weight: 600;
+}
+
+.todoList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid white;
+  margin-top: 20px;
+  padding-top : 20px;
+}
